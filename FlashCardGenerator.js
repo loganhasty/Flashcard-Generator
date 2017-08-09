@@ -12,7 +12,7 @@ var closeQuestions = [];
 
 // Populate the cloze-deleted questions list
 for (var i = 0; i < questions.length; i++) {
-	var q = new ClozeCard.ClozeCard(questions[i].full, questions[i].cloze);
+	var q = new closeCards.ClozeCard(questions[i].full, questions[i].cloze);
 	closeQuestions.push(q);
 }
 
@@ -76,7 +76,7 @@ function askQuestion() {
 					askQuestion();
 				} else {
 					// Exit the game
-					console.log('Thanks for playing! Goodbuy!');
+					console.log('Thanks for playing! Goodbye!');
 				}
 			})
 		}

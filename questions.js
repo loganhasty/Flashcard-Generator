@@ -5,7 +5,7 @@ exports.questions = [
 	},
 	{
 		full: 'Before his rise to fame as Stone Cold Steve Austin, he was the second half of a WCW tag team known as The Hollywood Blondes',
-		cloze: 'The Hollywood Blondes'
+		cloze: 'Hollywood Blondes'
 	},
 	{
 		full: 'Dwayne Johnson is also known as The Rock',
@@ -68,7 +68,7 @@ exports.questions = [
 		cloze: 'R-Truth'
 	},
 	{
-		full: 'Paul Donald Wight II, also known as Big Show, is 7 ft tall and 383 pounds',
+		full: 'Paul Donald Wight II, also known as The Big Show, is 7 ft tall and 383 pounds',
 		cloze: 'Big Show'
 	}
 ]
